@@ -1,6 +1,6 @@
-package com.innowise.notificationservice.service.api;
+package com.innowise.sivachenko.service.api;
 
-import com.innowise.notificationservice.model.dto.NotificationDto;
+import com.innowise.sivachenko.model.dto.NotificationDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

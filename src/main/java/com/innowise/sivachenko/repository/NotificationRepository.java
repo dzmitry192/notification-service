@@ -1,6 +1,6 @@
-package com.innowise.notificationservice.repository;
+package com.innowise.sivachenko.repository;
 
-import com.innowise.notificationservice.model.entity.NotificationEntity;
+import com.innowise.sivachenko.model.entity.NotificationEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

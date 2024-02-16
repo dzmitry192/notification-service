@@ -1,8 +1,8 @@
-package com.innowise.notificationservice.service;
+package com.innowise.sivachenko.service;
 
-import com.innowise.notificationservice.model.dto.NotificationDto;
-import com.innowise.notificationservice.repository.NotificationRepository;
-import com.innowise.notificationservice.service.api.NotificationService;
+import com.innowise.sivachenko.model.dto.NotificationDto;
+import com.innowise.sivachenko.repository.NotificationRepository;
+import com.innowise.sivachenko.service.api.NotificationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

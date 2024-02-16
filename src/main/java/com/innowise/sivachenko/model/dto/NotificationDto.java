@@ -1,4 +1,4 @@
-package com.innowise.notificationservice.model.dto;
+package com.innowise.sivachenko.model.dto;
 
 import lombok.Builder;
 

@@ -1,4 +1,4 @@
-package com.innowise.notificationservice.model.entity;
+package com.innowise.sivachenko.model.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
@@ -18,13 +18,19 @@ import java.time.Instant;
 public class NotificationEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
     @Email
+    @Column(name = "email")
     private String email;
     @NotBlank
+    @Column(name = "subject")
     private String subject;
     @NotBlank
-    private String body;
+    @Column(name = "message")
+    private String message;
     @NotNull
+    @Column(name = "createdAt")
     private Instant createdAt;
+
 }
