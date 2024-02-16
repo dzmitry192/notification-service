@@ -1,4 +1,4 @@
-package com.innowise.sivachenko.model.dto;
+package com.innowise.sivachenko.model.dto.response;
 
 import lombok.Builder;
 

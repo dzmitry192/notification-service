@@ -1,6 +1,6 @@
 package com.innowise.sivachenko.service.api;
 
-import com.innowise.sivachenko.model.dto.NotificationDto;
+import com.innowise.sivachenko.model.dto.response.NotificationDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

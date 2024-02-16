@@ -1,6 +1,6 @@
 package com.innowise.sivachenko.mapper;
 
-import com.innowise.sivachenko.model.dto.NotificationDto;
+import com.innowise.sivachenko.model.dto.response.NotificationDto;
 import com.innowise.sivachenko.model.entity.NotificationEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
