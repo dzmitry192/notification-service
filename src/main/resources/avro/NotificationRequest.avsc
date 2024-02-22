@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "NotificationRequest",
+  "namespace": "com.innowise.sivachenko.kafka.avro",
+  "fields": [
+    {
+      "name": "email",
+      "type":"string"
+    },
+    {
+      "name": "subject",
+      "type": "string"
+    },
+    {
+      "name": "message",
+      "type": "string"
+    },
+    {
+      "name": "createdAt",
+      "type": "long"
+    }
+  ]
+}
